@@ -1,4 +1,5 @@
-# cac-enabled-git-setup THIS IS STILLUDER REVIEW/TESTING
+# cac-enabled-git-setup 
+##THIS IS STILL UNDER REVIEW/TESTING
 
 Bash script that builds a version of Git capable of using a CAC card for authentication.
 ### **Caveat!** So far tested on the following platforms:
