@@ -1,13 +1,13 @@
 # cac-enabled-git-setup 
-### QUick and Simple
-1.	Determine your public key. To get this is to install puttycac from the software center and go to “CAPI” under “Auth” and pick out your certificate there.  T
+### Quick and Simple Method
+1.	Determine your public key. To get this is to install puttycac from the 'software center' and go to “CAPI” under “Auth” and pick out your certificate there.  T
 2.	Install the public key in github.com just like any other ssh key.
 3.	Install a pkcs11 provider.  I suggest OpenSC :https://github.com/OpenSC/OpenSC
 4.	Configure a new host in .ssh/config like this:
 
 Host github
 HostName github.com
-User mygitlabusername
+User mygithubusername
 PKCS11Provider /usr/lib/opensc-pkcs11.so (or whatever the path is)
 
 Then, why you try to commit it will prompt you for a PIN and you are good to go.
