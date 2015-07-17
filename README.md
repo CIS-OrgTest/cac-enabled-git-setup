@@ -5,10 +5,10 @@
 3.	Install a pkcs11 provider.  I suggest OpenSC :https://github.com/OpenSC/OpenSC
 4.	Configure a new host in .ssh/config like this:
 
-Host github
-HostName github.com
-User mygithubusername
-PKCS11Provider /usr/lib/opensc-pkcs11.so (or whatever the path is)
+*Host github
+*HostName github.com
+*User mygithubusername
+*PKCS11Provider /usr/lib/opensc-pkcs11.so (or whatever the path is)
 
 Then, why you try to commit it will prompt you for a PIN and you are good to go.
 
