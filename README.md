@@ -1,6 +1,6 @@
 # cac-enabled-git-setup 
 ### Quick and Simple Method - no scripting
-1.	Determine your public key. To get this is to install puttycac from the 'software center' and go to “CAPI” under “Auth” and pick out your certificate there.  
+1.	Determine your public key. To get this is to install puttycac from the 'software center' and go to “CAPI” under “Auth” and pick out your certificate there.  Reference: http://www.risacher.org/putty-cac/
 2.	Install the public key in github.com just like any other ssh key.
 3.	Install a pkcs11 provider.  I suggest OpenSC :https://github.com/OpenSC/OpenSC
 4.	Configure a new host in .ssh/config like this:
